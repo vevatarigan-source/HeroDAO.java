@@ -1,0 +1,15 @@
+CREATE DATABASE db_game;
+
+USE db_game;
+
+CREATE TABLE hero (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR(100),
+    level INT
+);
+
+INSERT INTO hero(nama, level)
+VALUES
+('Alucard',10),
+('Miya',20),
+('Layla',30);
